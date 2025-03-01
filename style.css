@@ -1,0 +1,542 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #E8E8E8;
+    box-shadow: 4px 6px 8px 2px grey;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 50px;
+    border-bottom: 1px solid #BDC3C7;
+
+
+}
+
+
+/* -----👇 Logo part👇 -----*/
+
+header #Logo {
+    font-size: 2.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2980B9;
+
+    display: flex;
+    margin-top: 18px;
+    text-shadow: 2px 4px 3px #BDC3C7;
+
+}
+
+
+header #Logo p {
+    color: #eb6841;
+    margin-top: 5px;
+}
+
+
+/* --- 👆Logo part End 👆---*/
+
+
+/* -----👇 menu part👇 -----*/
+
+div #menu_btn {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+div #menu_btn .menubtn {
+    list-style-type: none;
+    margin-inline: 12px;
+    font-size: 1rem;
+    padding-inline: 10px;
+
+}
+
+
+div ul .menubtn a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+div .login {
+    margin-right: 20px;
+    width: 90px;
+    height: 35px;
+
+    border: 1px solid #2980B9 ;
+    color: #2980B9;
+    font-size: 1rem;
+
+    border-radius: 20px;
+
+
+}
+
+div .Register {
+    margin-right: 20px;
+    width: 90px;
+    height: 35px;
+
+    border: 1px solid #2980B9 ;
+    background-color: #2980B9;
+    color: #DADADA;
+    font-size: 1rem;
+
+    border-radius: 20px;
+
+}
+
+
+/* --- Button Effect 👇---*/
+
+div button:hover {
+    border: 1px solid #BDC3C7;
+
+}
+
+   /* ------ 👆 menu part End 👆--------*/
+
+  
+/* ---  main img part 👇---*/
+
+
+main {
+    height: 70vh;
+    background-color: white;
+    padding-block: 30px;
+    padding-inline: 40px;
+
+}
+
+main .img {
+    background-image: url(https://www.hurix.com/wp-content/uploads/2021/08/Content-conversion.jpg);
+    height: 60vh;
+    padding-top: 30px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    border: 1px solid #DADADA;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.shrtbtn .imgbtn {
+    display: flex;
+    
+}
+
+.shrtbtn .imgbtn #shrtmenu {
+    list-style: none;
+    align-items: center;
+    padding-inline: 10px;
+
+}
+
+.shrtbtn .imgbtn #shrtmenu a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.shrtbtn .imgbtn .shrtmenu {
+    border-left: 1px solid black;
+    
+}
+
+.shrtbtn .imgbtn {
+    margin-left: 80px;
+}
+
+.img div h2 {
+    margin-inline: 90px;
+    margin-top: 10px;
+    font-size: 2rem;
+    
+}
+
+/* ---  main img part End👆---*/
+
+/* --- icon part ---*/
+
+
+.conatiner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vh;
+    
+
+}
+
+#icon {
+    width: 10%;
+    height: 105px;
+    
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+    margin-bottom: 70px;
+
+    /* --- icon part End ---*/
+
+    
+    
+}
+
+.container1 {
+    height: 70vh;
+    padding-left: 50px;
+    display: flex;
+    
+    
+    
+}
+
+.pghalf {
+    height: 60vh;
+    width: 50%;
+    padding-top: 50px;
+    
+}
+
+.container2 {
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+
+    border-radius: 8px;
+    text-align: center;
+    
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+.features {
+    display: grid;
+    gap: 20px;
+    text-align: left;
+}
+
+.feature {
+    display: flex;
+    align-items: flex-start;
+}
+
+.feature img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.feature h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.feature p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #666;
+}
+
+/* ------Container 2_0 -----*/
+
+.conatiner2_0 {
+    width: 50%;
+    height: 400px;
+
+    background-image: url(https://www.xcellimark.com/hs-fs/hubfs/Woman%20on%20tablet-1-1.jpeg?width=800&name=Woman%20on%20tablet-1-1.jpeg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 20px;
+    margin-right: 50px;
+   margin-top: 10px;
+
+}
+
+
+/*--- Next Part Course Type ----*/
+
+#navigation {
+    height: 100vh;
+    padding-top: 60px;
+    background-color: #f8f9fa;
+      
+
+}
+
+nav .playlist {
+    height: 70vh;
+    width: 90%;
+    background-color:#c6d4e1;
+
+    margin-left: 180px;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+
+}
+
+
+.playlist {
+    max-width: 1000px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-inline: 60px;
+
+}
+
+ .title {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            margin-top: 10px;
+
+      }
+
+.courses {
+            display: flex;
+            gap: 15px;
+            padding: 10px 0;
+            
+      }
+
+ .course-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 230px;
+            text-align: left;
+            
+     }
+
+  .course-card img {
+            width: 100%;
+            height: auto;
+
+    }
+
+  .course-content {
+            padding: 15px;
+
+        }
+
+   .badge {
+            background-color: #007bff;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 12px;
+            display: inline-block;
+       }
+
+  .course-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 10px 0;
+      }
+
+  .course-info {
+            font-size: 12px;
+            color: gray;
+     }
+
+  .rating {
+            color: #f4b400;
+            font-size: 14px;
+            margin-top: 5px;
+    }
+
+    .btn {
+            display: block;
+            text-align: center;
+            background: #007bff;
+            color: white;
+            padding: 8px;
+            margin-top: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 14px;
+   }
+
+        /*----- next step FAQ- ----*/
+
+ #navigation2 {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+ }
+
+ .Faq_box {
+            width: 90%;
+            max-width: 800px;
+            background-color: #fff;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+  }
+
+     h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 1.5rem;
+            font-size: 2.5rem;
+            font-weight: 600;
+      }
+
+     .faq-item {
+            margin-bottom: 1.5rem;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 1rem;
+      }
+.faq-item h2 {
+            color: #34495e;
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+     }
+ .faq-item p {
+            line-height: 1.6;
+            font-size: 1rem;
+            color: #7f8c8d;
+     }
+
+     .footer {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+            color: #3498db;
+      }
+    .footer a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+      }
+
+     .footer a:hover {
+            text-decoration: underline;
+     }
+
+
+        /*--- Footer--- */ 
+
+      #Footer-navigation {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: auto;
+            
+        }
+        
+
+    footer {
+            background-color: white;
+            color:black;
+            padding: 10px 10px;
+            font-size: 0.9rem;
+            border-top: 1px solid black;
+        }
+
+      div #Footer-Logo {
+            font-size: 2.2rem;
+            margin-right: 40px;
+           
+            display: flex;
+            align-items: center;
+            color: #3498db;
+     }
+
+  div #Footer-Logo p {
+            color: #FF5733;
+            
+        }
+
+ .footer-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: auto;
+      }
+
+  .footer-section {
+            flex: 1;
+            min-width: 200px;
+            margin-bottom: 10px;
+      }
+
+.footer-section h3 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #3498db;
+     }
+
+.footer-section ul {
+            list-style: none;
+            padding: 0;
+     }
+
+ .footer-section ul li {
+            margin-bottom: 10px;
+        }
+        
+ .footer-section ul li a {
+            color:black;
+            text-decoration: none;
+        }
+
+  .footer-section ul li a:hover {
+            text-decoration: underline;
+   }
+
+  .footer-bottom {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #34495e;
+            font-size: 0.8rem;
+  }
+
+   .footer-bottom a {
+            color: #3498db;
+            text-decoration: none;
+     }
+
+ .footer-bottom a:hover {
+            text-decoration: underline;
+
+      }
